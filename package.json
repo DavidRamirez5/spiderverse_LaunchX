@@ -1,0 +1,22 @@
+{
+  "name": "spiderverse_launchx",
+  "version": "1.0.0",
+  "description": "Proyecto realizado en Launch X",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./node_modules/.bin/jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DavidRamirez5/spiderverse_LaunchX.git"
+  },
+  "author": "David Ramirez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DavidRamirez5/spiderverse_LaunchX/issues"
+  },
+  "homepage": "https://github.com/DavidRamirez5/spiderverse_LaunchX#readme",
+  "devDependencies": {
+    "jest": "^27.5.1"
+  }
+}
