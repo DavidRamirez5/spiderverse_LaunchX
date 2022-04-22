@@ -10,4 +10,8 @@ describe("Test Suite Dummy Description", ()=>{
         expect(tomHolland.movies).toBe(3)
         expect(tomHolland.studio).toBe('Sony')
     })
+    test('2) Use the methos getInfo()', ()=>{
+        const tomHolland = new Spiderman("Spiderman Marvel",25,"Tom Holland",5,"Marvel studio")
+        expect(tomHolland.getInfo()).toBe("Hey, I'm Tom Holland from Marvel studio")
+    })
 })
